@@ -1,0 +1,78 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - JGProgressHUD (2.1)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya-ObjectMapper (2.8):
+    - Moya-ObjectMapper/Core (= 2.8)
+  - Moya-ObjectMapper/Core (2.8):
+    - Moya (~> 12.0)
+    - ObjectMapper (~> 3.4)
+  - Moya-ObjectMapper/RxSwift (2.8):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift
+    - RxSwift (~> 4)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.5.1)
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
+  - Realm (4.0.0):
+    - Realm/Headers (= 4.0.0)
+  - Realm/Headers (4.0.0)
+  - RealmSwift (4.0.0):
+    - Realm (= 4.0.0)
+  - Result (4.1.0)
+  - RxSwift (4.5.0)
+
+DEPENDENCIES:
+  - Charts
+  - JGProgressHUD (~> 2.1)
+  - Moya (~> 12.0.1)
+  - Moya-ObjectMapper (~> 2.8)
+  - Moya-ObjectMapper/RxSwift
+  - Moya/RxSwift
+  - R.swift (~> 5.1.0)
+  - RealmSwift (~> 4.0.0)
+  - RxSwift (~> 4.5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - JGProgressHUD
+    - Moya
+    - Moya-ObjectMapper
+    - ObjectMapper
+    - R.swift
+    - R.swift.Library
+    - Realm
+    - RealmSwift
+    - Result
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Moya-ObjectMapper: c514b5eafcfd5e260f85f7a5bf66895a217e2b37
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
+  Realm: 0c5b8f398daeec5b29824e41c453ff9e126e31d8
+  RealmSwift: 02e1f604f7091ec535145055764ca53efa8cdc92
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+
+PODFILE CHECKSUM: 73eb47476dbf03930e78816d0bc6bd6d970392b2
+
+COCOAPODS: 1.8.4

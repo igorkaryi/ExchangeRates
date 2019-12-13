@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChartView" customModule="ExchangeRates" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="6hj-d2-pQg" customClass="LineChartView" customModule="Charts">
+                    <rect key="frame" x="0.0" y="44" width="414" height="518"/>
+                    <color key="backgroundColor" red="0.96920746560000004" green="0.96995741130000002" blue="0.97608381509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96920746560000004" green="0.96995741130000002" blue="0.97608381509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6hj-d2-pQg" firstAttribute="leading" secondItem="HAx-dN-7Y7" secondAttribute="leading" id="4B9-zN-ext"/>
+                <constraint firstItem="6hj-d2-pQg" firstAttribute="top" secondItem="HAx-dN-7Y7" secondAttribute="top" id="IyO-BZ-eAd"/>
+                <constraint firstItem="HAx-dN-7Y7" firstAttribute="trailing" secondItem="6hj-d2-pQg" secondAttribute="trailing" id="bop-os-r5v"/>
+                <constraint firstItem="HAx-dN-7Y7" firstAttribute="bottom" secondItem="6hj-d2-pQg" secondAttribute="bottom" constant="300" id="nxa-ri-wg9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="HAx-dN-7Y7"/>
+            <connections>
+                <outlet property="chartView" destination="6hj-d2-pQg" id="WDR-Dp-jDF"/>
+            </connections>
+            <point key="canvasLocation" x="53.623188405797109" y="-38.839285714285715"/>
+        </view>
+    </objects>
+</document>
